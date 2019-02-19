@@ -44,8 +44,13 @@ int count ()
     int i = 0;
     while (inp_num != -1) {
         inp_num = get_int();
+        if (inp_num > 0 && inp_num < 10){
         ++array[inp_num]; 
         ++i;  
+        } else {
+            std::cout << "PLEASE INPUT 1 TO 10 NUMBER" << std::endl;
+            continue;
+        }
         
         }
     for (int j = 0; j < 10; ++j){
