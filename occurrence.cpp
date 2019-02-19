@@ -39,31 +39,21 @@ int get_int()
 
 
 int count () 
-{	int input_num = get_int();
-    int empty_array [10] = {};
-	    for (int i = 0; i < 10; ++i){
-		    empty_array[i] = 0;
-	    }
-    if (input_num != -1 && input_num > 0 && input_num <= 10) {
-	        for (int j = 0; j < 10; ++j){
-                if (input_num = j + 1){ 
-                    empty_array[j] = empty_array[j] + 1;
-            }
-                count();
-
-                return empty_array[j];
+{   int inp_num = 0;
+    int array [10] = {};
+    int i = 0;
+    while (inp_num != -1) {
+        inp_num = get_int();
+        ++array[inp_num]; 
+        ++i;  
+        
         }
-    } else if (-1 == input_num) { 
-        for (int i = 0; i < 10; ++i){
-            //std::cout << k << "number" << empty_array[k] << std::endl;
-	        std::cout << empty_array[i];
-        } 
-    } else if (input_num > 10) {
-        count();
-    }
-
-
+    for (int j = 0; j < 10; ++j){
+        std::cout << "NUMBER = " << j <<  "  COUNT =  " << array[j] << std::endl;
+        }
 }
+
+
 
 
 int main ()
