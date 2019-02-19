@@ -35,34 +35,26 @@ int get_int()
     return result;
 }
 
-
-
-
-int count () 
-{   int inp_num = 0;
-    int array [10] = {};
-    int i = 0;
+int count ()
+{  //This function calculates the number of digits entered
+    int inp_num = 0;
+    int array [11] = {};
     while (inp_num != -1) {
         inp_num = get_int();
-        if (inp_num > 0 && inp_num < 10){
-        ++array[inp_num]; 
-        ++i;  
+        if (inp_num > 0 && inp_num <= 10){
+        ++array[inp_num];
         } else {
             std::cout << "PLEASE INPUT 1 TO 10 NUMBER" << std::endl;
             continue;
         }
-        
-        }
-    for (int j = 0; j < 10; ++j){
-        std::cout << "NUMBER = " << j <<  "  COUNT =  " << array[j] << std::endl;
-        }
+    }
+    for (int j = 1; j <= 10; ++j){
+        std::cout << "NUMBER = " << j  <<  "COUNT = " << array[j] << std::endl;
+    }
 }
 
-
-
-
 int main ()
-{ count ();
-
+{
+    count ();
     return 0;
 }
