@@ -49,7 +49,7 @@ int count ()
         }
     }
     for (int j = 1; j <= 10; ++j){
-        std::cout << "NUMBER = " << j  <<  "COUNT = " << array[j] << std::endl;
+        std::cout << "NUMBER = " << j  <<  "  ->  COUNT = " << array[j] << std::endl;
     }
 }
 
