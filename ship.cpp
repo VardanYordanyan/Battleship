@@ -47,8 +47,8 @@ int main()
      int f = 0;
      int z = 0;
      while (f < 4) {
-         x = rand() % 9 + 1;
-         y = rand() % 9 + 1;
+         x = rand() % 10 + 1;
+         y = rand() % 10 + 1;
          if ('-' == p[x][y]){
 
          std::cout <<"10"<< x << y << std::endl;
@@ -71,8 +71,8 @@ f = 0;
  while (f < 3) {
      z = rand() % 50;
      if (1 == z % 2){
-         x = 1 + rand() % 9;
-         y = 1 + rand() % 7;
+         x = 1 + rand() % 10;
+         y = 1 + rand() % 9;
          //std::cout <<"2"<< x << y << std::endl;
          if ('-' == p[x][y] && '-' == p[x][y + 1]){
 
@@ -90,8 +90,8 @@ f = 0;
          }
      } else {
          if ('-' == p[x][y] && '-' == p[x + 1][y]){
-             x = 1 + rand() % 7;
-             y = 1 + rand() % 9;
+             x = 1 + rand() % 9;
+             y = 1 + rand() % 10;
 
 
          std::cout <<"20"<< x << y << std::endl;
@@ -109,13 +109,13 @@ f = 0;
      }
  }
 
-/*
+
  f = 0;
  while (f < 2) {
         z = rand() % 50;
      if (1 == z % 2){
-  x = 1 + rand() % 9;
-     y = 1 + rand() % 6;
+  x = 1 + rand() % 10;
+     y = 1 + rand() % 8;
 
          if ('-' == p[x][y + 2] && '-' == p[x][y] ){
              //  std::cout<< x << y<<p[x][y] <<std::endl;
@@ -133,8 +133,8 @@ f = 0;
          }
      } else {
      if ('-' == p[x + 2][y] && '-' == p[x][y]){
-  x = 1 + rand() % 6;
-     y = 1 + rand() % 9;
+  x = 1 + rand() % 8;
+     y = 1 + rand() % 10;
 
          //    std::cout<< x << y<<p[x][y] <<std::endl;
              for (int i = x - 1; i <= x + 3; ++i) {
