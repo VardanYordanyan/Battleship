@@ -1,0 +1,1 @@
+obj/check.dep obj/check.o: src/check.cpp inc/check.hpp inc/print.hpp

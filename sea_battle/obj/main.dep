@@ -1,0 +1,2 @@
+obj/main.dep obj/main.o: src/main.cpp inc/generate.hpp inc/ship_count.hpp \
+ inc/check.hpp inc/print.hpp inc/hit.hpp inc/rule.hpp

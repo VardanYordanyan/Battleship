@@ -1,0 +1,5 @@
+The game is called battleship
+The game is written in C ++ programming language
+To run the program you need C ++, GNU make, g ++ on your computer
+Launch it, you need to generate a makefile file with the GNU make implementation program
+Then open the truck bin bin / battleship file

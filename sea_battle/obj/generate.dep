@@ -1,0 +1,2 @@
+obj/generate.dep obj/generate.o: src/generate.cpp inc/generate.hpp \
+ inc/ship_count.hpp

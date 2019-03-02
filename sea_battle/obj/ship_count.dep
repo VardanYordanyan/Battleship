@@ -1,0 +1,2 @@
+obj/ship_count.dep obj/ship_count.o: src/ship_count.cpp \
+ inc/ship_count.hpp

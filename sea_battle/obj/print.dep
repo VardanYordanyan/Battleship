@@ -1,0 +1,1 @@
+obj/print.dep obj/print.o: src/print.cpp inc/print.hpp

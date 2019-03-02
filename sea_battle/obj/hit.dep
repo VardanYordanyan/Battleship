@@ -1,0 +1,2 @@
+obj/hit.dep obj/hit.o: src/hit.cpp inc/hit.hpp inc/print.hpp \
+ inc/check.hpp

@@ -1,0 +1,1 @@
+obj/rule.dep obj/rule.o: src/rule.cpp inc/rule.hpp
